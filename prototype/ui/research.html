@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMARINE — Research Evidence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <main class="decision-box research-page">
+            <header class="app-header">
+                <div class="title-row">
+                    <span class="brand">PRIMARINE</span>
+                    <a href="index.html" class="nav-link">&larr; Back to Decision Support</a>
+                </div>
+                <p class="tagline">Validated Research Evidence</p>
+            </header>
+
+            <section class="research-section">
+                <h2>Research Question</h2>
+                <p>
+                    Can calibrated freight-rate uncertainty provide a useful signal for false-breakout exposure and support selective abstention in procurement timing?
+                </p>
+            </section>
+
+            <section class="research-section">
+                <h2>Method</h2>
+                <p>
+                    Single-step point forecasts are augmented with distribution-free <strong>Split Conformalized Quantile Regression (Split-CQR)</strong> calibrated at nominal 90% coverage. Prediction interval width $W_t = U_t - L_t$ is compared against a validation-derived decision threshold ($\tau = 1.35 \times \text{median width} = 5.9529$).
+                </p>
+            </section>
+
+            <section class="research-section">
+                <h2>Key Finding</h2>
+                <p>
+                    Higher conformal interval width was observationally associated with greater observed false-breakout exposure in the evaluated scenarios:
+                </p>
+                <div class="table-wrap">
+                    <table class="simple-table">
+                        <thead>
+                            <tr>
+                                <th>Regime</th>
+                                <th>Observed False Breakout Rate</th>
+                                <th>Discrimination Metric</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>High-Width Regime ($W > \tau$)</td>
+                                <td><strong>40.25%</strong></td>
+                                <td rowspan="2">$\text{AUC} = \mathbf{0.6719}$<br>($p < 0.01$)</td>
+                            </tr>
+                            <tr>
+                                <td>Low-Width Regime ($W \le \tau$)</td>
+                                <td><strong>23.39%</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="research-section">
+                <h2>Selective Abstention</h2>
+                <p>
+                    Gating decisions using the pre-calibrated threshold on held-out scenarios reduced observed false breakouts while retaining substantial decision coverage:
+                </p>
+                <ul class="bullet-list">
+                    <li><strong>86 &rarr; 41</strong> observed false-breakout events (<strong>52.33% reduction</strong>)</li>
+                    <li><strong>61.11%</strong> decision coverage</li>
+                    <li><strong>+$0.0334/MT (+0.453%)</strong> nominal cost difference (Wilcoxon $p = 5.42 \times 10^{-11}$)</li>
+                </ul>
+            </section>
+
+            <section class="research-section">
+                <h2>Negative Controls</h2>
+                <ul class="bullet-list">
+                    <li><strong>Spot Boundary Crossing:</strong> $\text{AUC} = 0.5025$ (99.65% crossing rate; degenerate signal).</li>
+                    <li><strong>Directional Sign Error:</strong> $\text{AUC} = 0.4487$ (width measures spread, not binary sign correctness).</li>
+                </ul>
+            </section>
+
+            <section class="research-section">
+                <h2>Limitations</h2>
+                <p class="limitation-text">
+                    This result is based on the evaluated research population (Baltic Dry Index 2018–2024 testbed) and does not establish universal real-world performance. The prototype does not execute live trades or connect to live satellite AIS.
+                </p>
+            </section>
+
+            <footer class="app-footer">
+                <a href="index.html" class="btn-back">&larr; Return to Decision Tool</a>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "system_identity": "PRIMARINE",
+  "prototype_type": "Research Decision Support Prototype",
+  "calibration_parameters": {
+    "nominal_coverage": 0.90,
+    "abstention_multiplier": 1.35,
+    "validation_median_width": 4.4096,
+    "abstention_threshold": 5.9529,
+    "coverage_method": "Split Conformalized Quantile Regression (Split-CQR)",
+    "calibration_split": "2022-01-01 to 2022-12-31"
+  },
+  "evidence_benchmarks": {
+    "high_width_false_breakout_rate": 0.4025,
+    "low_width_false_breakout_rate": 0.2339,
+    "risk_difference_pp": 16.86,
+    "auc": 0.6719,
+    "p_value": 0.01,
+    "forced_policy_false_breakouts": 86,
+    "gated_policy_false_breakouts": 41,
+    "observed_reduction_percent": 52.33,
+    "decision_coverage_percent": 61.11,
+    "cost_difference_percent": 0.453
+  },
+  "uncertainty_strata": {
+    "low_max_width": 4.5,
+    "moderate_max_width": 5.9529,
+    "elevated_min_width": 5.9529
+  },
+  "explanation_templates": {
+    "PROCEED": "Forecast uncertainty is below the calibrated decision threshold. Historical evaluation indicates lower observed false-breakout exposure for this regime.",
+    "DEFER": "Forecast uncertainty is above the calibrated decision threshold. Historical evaluation indicates elevated observed false-breakout exposure under wide prediction intervals.",
+    "ABSTAIN": "Forecast uncertainty significantly exceeds the calibrated decision threshold, or input data indicates severe volatility regime shift."
+  }
+}

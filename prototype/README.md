@@ -1,64 +1,66 @@
-# PRIMARINE — Uncertainty-Gated Procurement Research Prototype
+# PRIMARINE — Uncertainty-Gated Freight Decision Support Prototype
 
 **System Classification:** Research Demonstration Prototype  
-**Scope:** Interactive demonstration of the specific uncertainty-gated decision support mechanism investigated and validated in the PRIMARINE research program.  
-**Authoritative Evidence:** `research/PRIMARINE_RESEARCH_PACKAGE/`, `research/EVIDENCE_REGISTRY.csv`, `research/decision_boundary/decision_boundary_analysis.csv`
+**Scope:** Simple, clean, believable decision-support prototype demonstrating the specific uncertainty-gated procurement mechanism validated in the PRIMARINE research program.
 
 ---
 
-## 1. Prototype Purpose & Scope
+## 1. Prototype Purpose
 
-This prototype demonstrates the exact empirical research chain:
+This prototype demonstrates ONE specific research mechanism:
 ```
-FREIGHT-RATE FORECAST
+FREIGHT FORECAST
         ↓
-CONFORMAL PREDICTION INTERVAL (Split-CQR)
+CONFORMAL PREDICTION INTERVAL
         ↓
-INTERVAL WIDTH (W)
+UNCERTAINTY WIDTH (W = U - L)
         ↓
-FALSE-BREAKOUT RISK ASSESSMENT
+DECISION GATE (W vs tau)
         ↓
-SELECTIVE ABSTENTION (tau = 1.35x)
-        ↓
-SUGGESTED PROCUREMENT ACTION (ENTER vs DEFER / ABSTAIN)
+PROCEED / DEFER
 ```
 
-> **IMPORTANT BOUNDARY:** This prototype does **NOT** implement live AIS, satellite vessel tracking, live port APIs, or autonomous charter party execution. It is a focused interactive demonstrator of the **validated uncertainty-gating research component**.
+It is **NOT** the complete PRIMARINE enterprise platform. It does not connect to live AIS, stream market feeds, or execute autonomous charter contracts.
 
 ---
 
 ## 2. Quickstart Instructions
 
-The prototype is a standalone, dependency-free single page application requiring only a standard web browser.
+The prototype is lightweight and runs directly in any modern browser via local HTTP server:
 
 ```bash
-# Navigate to prototype directory
-cd prototype/primarine_research_prototype
+# Navigate to the prototype directory
+cd prototype
 
-# Launch local HTTP server (Python 3)
-python -m http.server 8080
+# Launch local server
+python -m http.server 8000
 ```
-Open **`http://localhost:8080`** in your browser to interact with:
-- **Historical Testbed Mode:** Step through 288 chronological test scenarios from the Baltic Dry Index testbed.
-- **Controlled Demonstration Cases:** Inspect explicit test scenarios illustrating lower-width vs elevated-width decisions.
-- **Dynamic Conformal Chart:** Visualizes central forecast, Split-CQR bounds, interval width, and actual market outcomes.
-- **Selective Abstention Scorecard:** Compares Forced Decision Policy (86 false breakouts) vs Uncertainty-Gated Policy (41 false breakouts, 52.33% reduction).
-- **Negative Results Panel:** Highlights degenerate boundary crossing ($\text{AUC} = 0.5025$) and sign error non-correlation ($\text{AUC} = 0.4487$).
+Open **`http://localhost:8000/ui/index.html`** in your browser.
+
+- **Main Decision Tool:** `http://localhost:8000/ui/index.html`
+- **Research Evidence Page:** `http://localhost:8000/ui/research.html`
 
 ---
 
-## 3. Directory Layout
+## 3. Data-Driven Architecture
 
 ```
-prototype/primarine_research_prototype/
-├── index.html                  <-- Main interactive demonstrator interface
-├── css/
-│   └── style.css               <-- Dark-mode CSS styling & responsive layout
-├── js/
-│   ├── app.js                  <-- Canvas chart rendering & decision controller
-│   └── data.js                 <-- 288 verified testbed observations (JSON)
-├── DATA_PROVENANCE.md          <-- Origin & split documentation
-├── RESEARCH_TRACEABILITY.md    <-- Mapping to Evidence Registry IDs
-├── PROTOTYPE_LIMITATIONS.md    <-- Methodological & operational boundaries
-└── TEST_SCENARIOS.md           <-- Test cases & expected behaviors
+[ prototype/data/research_scenarios.json ]  <-- Derived directly from testbed research results
+                     ↓
+[ prototype/config/research_config.json ]    <-- Authoritative pre-calibrated threshold (tau = 5.9529)
+                     ↓
+[ prototype/logic/decisionEngine.js ]        <-- Pure function calculating width & gating logic
+                     ↓
+[ prototype/ui/app.js & index.html ]        <-- Clean, minimal UI displaying decision & "Why?" modal
+```
+
+- **Zero Hard-Coded Decisions:** Every decision (`PROCEED` vs `DEFER`) is computed dynamically by `calculateDecision()` by comparing interval width against the configured threshold.
+- **Zero Fabricated Scenarios:** All observations come from the empirical Baltic Dry Index evaluation testbed (`research/decision_boundary/decision_boundary_analysis.csv`).
+
+---
+
+## 4. Running Unit Tests
+
+```bash
+node prototype/tests/test_decision_logic.js
 ```
