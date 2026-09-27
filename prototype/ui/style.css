@@ -27,16 +27,75 @@ body {
     background-color: var(--bg-page);
     color: var(--text-main);
     line-height: 1.5;
-    padding: 40px 16px;
+    padding-bottom: 40px;
+}
+
+/* Top System Navigation Bar */
+.top-nav-bar {
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--border-color);
+    padding: 12px 24px;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.nav-brand-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-badge {
+    background-color: var(--text-main);
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.nav-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.nav-links-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.top-nav-link {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.top-nav-link:hover {
+    color: var(--accent-blue);
+    text-decoration: underline;
+}
+
+.top-nav-link.active {
+    color: var(--accent-blue);
+    font-weight: 600;
 }
 
 .app-container {
     width: 100%;
     max-width: 580px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 .decision-box {

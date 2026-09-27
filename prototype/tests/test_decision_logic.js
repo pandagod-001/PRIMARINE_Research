@@ -1,8 +1,15 @@
 import assert from 'assert';
 import { calculateDecision } from '../logic/decisionEngine.js';
 import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const config = JSON.parse(fs.readFileSync('prototype/config/research_config.json', 'utf8'));
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Robust config path resolution
+const configPath = path.resolve(__dirname, '../config/research_config.json');
+const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 
 console.log("Running PRIMARINE Decision Logic Unit Tests...");
 

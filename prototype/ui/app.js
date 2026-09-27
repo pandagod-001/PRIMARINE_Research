@@ -6,10 +6,14 @@ let currentScenario = null;
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        const configRes = await fetch('../config/research_config.json');
+        // Resolve paths correctly whether served from / or /ui/
+        const configPath = window.location.pathname.includes('/ui/') ? '../config/research_config.json' : 'config/research_config.json';
+        const scenariosPath = window.location.pathname.includes('/ui/') ? '../data/research_scenarios.json' : 'data/research_scenarios.json';
+
+        const configRes = await fetch(configPath);
         researchConfig = await configRes.json();
 
-        const scenariosRes = await fetch('../data/research_scenarios.json');
+        const scenariosRes = await fetch(scenariosPath);
         researchScenarios = await scenariosRes.json();
 
         initUI();

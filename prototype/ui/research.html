@@ -10,12 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Top System Directory Navigation Bar -->
+    <nav class="top-nav-bar">
+        <div class="nav-brand-group">
+            <span class="nav-badge">PRIMARINE RESEARCH</span>
+            <span class="nav-title">Uncertainty-Gated Procurement</span>
+        </div>
+        <div class="nav-links-group">
+            <a href="../index.html" class="top-nav-link">Decision Tool</a>
+            <a href="research.html" class="top-nav-link active">Research Evidence</a>
+            <a href="../DECISION_LOGIC.md" target="_blank" class="top-nav-link">Decision Logic</a>
+            <a href="../DATA_PROVENANCE.md" target="_blank" class="top-nav-link">Data Provenance</a>
+            <a href="../TRACEABILITY.md" target="_blank" class="top-nav-link">Traceability</a>
+            <a href="../PROTOTYPE_LIMITATIONS.md" target="_blank" class="top-nav-link">Limitations</a>
+            <a href="../README.md" target="_blank" class="top-nav-link">README</a>
+        </div>
+    </nav>
+
     <div class="app-container">
         <main class="decision-box research-page">
             <header class="app-header">
                 <div class="title-row">
                     <span class="brand">PRIMARINE</span>
-                    <a href="index.html" class="nav-link">&larr; Back to Decision Support</a>
+                    <a href="../index.html" class="nav-link">&larr; Back to Decision Support</a>
                 </div>
                 <p class="tagline">Validated Research Evidence</p>
             </header>
@@ -78,7 +95,7 @@
             <section class="research-section">
                 <h2>Negative Controls</h2>
                 <ul class="bullet-list">
-                    <li><strong>Spot Boundary Crossing:</strong> $\text{AUC} = 0.5025$ (99.65% crossing rate; degenerate signal).</li>
+                    <li><strong>Spot Boundary Crossing:</strong> $\text{AUC} = 0.5025$ (99.65% interval crossing rate; degenerate signal).</li>
                     <li><strong>Directional Sign Error:</strong> $\text{AUC} = 0.4487$ (width measures spread, not binary sign correctness).</li>
                 </ul>
             </section>
@@ -91,7 +108,7 @@
             </section>
 
             <footer class="app-footer">
-                <a href="index.html" class="btn-back">&larr; Return to Decision Tool</a>
+                <a href="../index.html" class="btn-back">&larr; Return to Decision Tool</a>
             </footer>
         </main>
     </div>
