@@ -1,0 +1,19 @@
+source_document,target_document,relationship_type,link_status,verified_date,notes
+README.md,docs/00_PROJECT_OVERVIEW.md,NAVIGATION,VALID,2026-09-27,Executive overview link verified
+README.md,research/PRIMARINE_RESEARCH_PACKAGE/FINAL_RESEARCH_POSITION.md,RESEARCH_REF,VALID,2026-09-27,Final research position link verified
+README.md,research/EVIDENCE_REGISTRY.csv,EVIDENCE_REF,VALID,2026-09-27,Evidence registry link verified
+README.md,REPRODUCIBILITY.md,REPRODUCTION,VALID,2026-09-27,Master reproduction guide link verified
+README.md,prototype/README.md,PROTOTYPE_REF,VALID,2026-09-27,Prototype documentation link verified
+README.md,docs/api/API_INTEGRATION_STATUS.md,API_REF,VALID,2026-09-27,API integration status link verified
+docs/00_PROJECT_OVERVIEW.md,docs/01_ORIGINAL_SYSTEM_VISION.md,ARCHITECTURE,VALID,2026-09-27,Original vision document link verified
+docs/00_PROJECT_OVERVIEW.md,docs/02_RESEARCH_QUESTION.md,RESEARCH_Q,VALID,2026-09-27,Research question link verified
+docs/00_PROJECT_OVERVIEW.md,docs/04_WHAT_WE_FOUND.md,FINDINGS,VALID,2026-09-27,Findings summary link verified
+docs/00_PROJECT_OVERVIEW.md,docs/05_CURRENT_STATUS.md,STATUS,VALID,2026-09-27,Current status link verified
+docs/00_PROJECT_OVERVIEW.md,docs/06_LIMITATIONS.md,LIMITATIONS,VALID,2026-09-27,Limitations link verified
+docs/RESEARCH_TO_PRODUCT_MAPPING.md,docs/PRIMARINE_PRODUCT_BLUEPRINT/,BLUEPRINT_REF,VALID,2026-09-27,Enterprise product blueprints link verified
+docs/FINAL_PROJECT_STATUS.md,research/CLAIM_REGISTRY.md,CLAIM_REF,VALID,2026-09-27,Claim registry link verified
+PRIMARINE_GOOGLE_DRIVE_INDEX.md,PRIMARINE_GOOGLE_DRIVE_PACKAGE/00_START_HERE/README.md,PACKAGE_REF,VALID,2026-09-27,Google Drive start guide link verified
+research/PRIMARINE_RESEARCH_PACKAGE/FINAL_RESEARCH_POSITION.md,research/EVIDENCE_REGISTRY.csv,EVIDENCE_REF,VALID,2026-09-27,Evidence registry link verified
+research/PRIMARINE_RESEARCH_PACKAGE/REPRODUCIBILITY_MANIFEST.md,REPRODUCIBILITY.md,REPRODUCTION,VALID,2026-09-27,Reproduction guide cross-reference verified
+research/SOURCE_OF_TRUTH.md,research/CONFLICTS_AND_RECONCILIATION.md,RECONCILIATION,VALID,2026-09-27,Conflict reconciliation log link verified
+research/SOURCE_OF_TRUTH.md,research/MIGRATION_MAP.md,MIGRATION,VALID,2026-09-27,Migration map link verified

@@ -1,0 +1,32 @@
+{
+  "Experiment_1_Decision_Fragility": {
+    "Mean_DFI": 0.2,
+    "Mean_FRI": 1.0,
+    "Mean_Flip_Rate_Pct": 0.0
+  },
+  "Experiment_2_Uncertainty_Propagation": {
+    "Mean_Spread_pmt": 5.767186111111111,
+    "Mean_Regret_pmt": 0.0
+  },
+  "Experiment_3_Constraint_Criticality": {
+    "Draft_Criticality_Pct": 3.1746031746031744,
+    "Capacity_Criticality_Pct": 52.38095238095239,
+    "LOA_Criticality_Pct": 0.0,
+    "Beam_Criticality_Pct": 0.0
+  },
+  "Experiment_4_Adaptive_Disruption": {
+    "Scenarios_Tested": 7,
+    "Mean_Adaptive_Benefit_pmt": 3.898214285714286
+  },
+  "Experiment_5_Value_of_Information": {
+    "E1_Persistence_Cost": 18.072708333333335,
+    "E4_Full_System_Cost": 17.851819444444445,
+    "Total_PRIMARINE_Advantage_pmt": 0.22088888888888888
+  },
+  "Experiment_6_Ablation": {
+    "Worst_Layer_Removal": "Ablation B (Removing Feasibility -> +$2.85/MT Regret, 38.4% Infeasible Rate)"
+  },
+  "Experiment_7_STGNN_Comparison": {
+    "Mean_Proactive_Edge_pmt": 1.0399999999999998
+  }
+}

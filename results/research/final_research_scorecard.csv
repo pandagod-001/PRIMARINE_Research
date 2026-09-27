@@ -1,0 +1,5 @@
+Method,MAE,Directional_Accuracy_Pct,Turning_Point_F1,Coverage_90_Pct,Mean_Interval_Width,Decision_Precision_Pct,Economic_Advantage_Pct,Model
+Naive Persistence Baseline,0.4175,N/A (Martingale),0.0,N/A,N/A,N/A,0.0,
+,0.4457,50.7,26.47,N/A,N/A,48.2,-0.85,5-Day Simple Moving Average
+,0.4676,46.48,27.18,N/A,N/A,45.6,-1.2,AutoRegressive AR(5)
+,0.4644,59.15,59.51,88.19,7.6262,53.3,1.04,PRIMARINE Multi-Modal LightGBM (CQR)

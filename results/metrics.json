@@ -1,0 +1,47 @@
+{
+    "Naive_Persistence": {
+        "MAE": 0.4175,
+        "RMSE": 0.5504,
+        "MAPE": 5.63,
+        "sMAPE": 5.71,
+        "Directional_Accuracy_Pct": 0.7,
+        "MAE_Improvement_vs_Naive_Pct": 0.0,
+        "RMSE_Improvement_vs_Naive_Pct": 0.0
+    },
+    "Moving_Average_5d": {
+        "MAE": 0.4457,
+        "RMSE": 0.598,
+        "MAPE": 5.98,
+        "sMAPE": 6.11,
+        "Directional_Accuracy_Pct": 50.7,
+        "MAE_Improvement_vs_Naive_Pct": -6.75,
+        "RMSE_Improvement_vs_Naive_Pct": -8.65
+    },
+    "AutoRegressive_AR_5": {
+        "MAE": 0.4676,
+        "RMSE": 0.6235,
+        "MAPE": 6.18,
+        "sMAPE": 6.29,
+        "Directional_Accuracy_Pct": 46.48,
+        "MAE_Improvement_vs_Naive_Pct": -12.0,
+        "RMSE_Improvement_vs_Naive_Pct": -13.28
+    },
+    "LightGBM_Regressor": {
+        "MAE": 0.4644,
+        "RMSE": 0.5821,
+        "MAPE": 6.77,
+        "sMAPE": 6.56,
+        "Directional_Accuracy_Pct": 59.15,
+        "MAE_Improvement_vs_Naive_Pct": -11.23,
+        "RMSE_Improvement_vs_Naive_Pct": -5.76
+    },
+    "XGBoost_Regressor": {
+        "MAE": 0.4796,
+        "RMSE": 0.609,
+        "MAPE": 7.06,
+        "sMAPE": 6.8,
+        "Directional_Accuracy_Pct": 60.56,
+        "MAE_Improvement_vs_Naive_Pct": -14.87,
+        "RMSE_Improvement_vs_Naive_Pct": -10.65
+    }
+}

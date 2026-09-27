@@ -1,0 +1,22 @@
+{
+  "Overall_DFI": 0.2,
+  "Overall_FRI": 1.0,
+  "Overall_Flip_Rate_Pct": 0.0,
+  "By_Parcel_Size": {
+    "50000": {
+      "DFI": 0.2,
+      "FRI": 1.0,
+      "Flip_Rate_Pct": 0.0
+    },
+    "75000": {
+      "DFI": 0.2,
+      "FRI": 1.0,
+      "Flip_Rate_Pct": 0.0
+    },
+    "120000": {
+      "DFI": 0.2,
+      "FRI": 1.0,
+      "Flip_Rate_Pct": 0.0
+    }
+  }
+}

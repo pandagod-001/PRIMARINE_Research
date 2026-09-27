@@ -1,0 +1,4 @@
+Regime_ID,Regime_Name,Observations,Naive_MAE,LightGBM_MAE,MAE_Relative_Diff_Pct,Directional_Accuracy_Pct,Conformal_Coverage_Pct
+0,Low Volatility / Stable,75,0.3977,0.3883,2.36,58.67,93.33
+1,Normal Volatility,59,0.3753,0.4598,-22.5,52.54,84.75
+2,Tightening / High Surge,10,0.422,0.6485,-53.68,60.0,70.0

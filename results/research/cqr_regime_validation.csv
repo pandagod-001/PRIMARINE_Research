@@ -1,0 +1,5 @@
+Regime,Observations,Empirical_Coverage_Pct,Mean_Interval_Width,Median_Interval_Width
+Low Volatility / Range-bound,149,93.29,7.4775,7.1091
+Normal Volatility,118,85.59,7.6655,7.53
+Tightening / High Surge,21,66.67,8.4598,8.4686
+COVID Historical Stress Period (2020),85,50.59,8.2969,8.3881

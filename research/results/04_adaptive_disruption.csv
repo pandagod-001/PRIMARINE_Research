@@ -1,0 +1,8 @@
+Scenario,Description,Original_Plan,Static_Feasible,Static_Cost_pmt,Adapted_Plan,Adapted_Cost_pmt,Cost_Degradation_pmt,Adaptive_Benefit_pmt,Decision_Adapted
+D0_Baseline,Nominal Operating State,V2_Capesize_150k_at_Paradip,1,29.1075,V2_Capesize_150k_at_Paradip,29.1075,0.0,0.0,0
+D1_Freight_Spike_10pct,Market Surge (+10% Freight),V2_Capesize_150k_at_Paradip,1,30.9575,V2_Capesize_150k_at_Paradip,30.9575,1.85,0.0,0
+D2_Freight_Spike_20pct,Market Shock (+20% Freight),V2_Capesize_150k_at_Paradip,1,32.8075,V2_Capesize_150k_at_Paradip,32.8075,3.7,0.0,0
+D3_Paradip_Draft_Cut,Siltation Cuts Paradip Draft to 15.0m,V2_Capesize_150k_at_Paradip,0,44.1075,V2_Capesize_150k_at_Visakhapatnam,29.32,0.2125,14.7875,1
+D4_Primary_Vessel_Unavailable,Selected V1 Fixed by Third Party,V2_Capesize_150k_at_Paradip,1,29.1075,V2_Capesize_150k_at_Paradip,29.1075,0.0,0.0,0
+D5_Port_Congestion_Surge,Paradip Anchorage Queue +4 Days,V2_Capesize_150k_at_Paradip,1,29.8075,V2_Capesize_150k_at_Visakhapatnam,29.32,0.2125,0.4875,1
+D6_Compound_Cyclone_Disruption,"Cyclone Shock: +15% Freight, V1 Unavailable, Paradip Closed",V2_Capesize_150k_at_Paradip,0,44.1075,V2_Capesize_150k_at_Visakhapatnam,32.095,2.9875,12.0125,1

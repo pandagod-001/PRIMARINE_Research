@@ -1,0 +1,6 @@
+Route_ID,Corridor,Spatial_Hop_Distance,Non_Graph_Planned_Cost_pmt,Non_Graph_Realized_Cost_pmt,STGNN_Proactive_Decision,STGNN_Realized_Cost_pmt,STGNN_Decision_Edge_pmt,Decision_Changed
+R1_HayPoint_to_Paradip,Hay Point -> Paradip,0,28.5,32.3,REROUTE_TO_SAMARINDA,29.6,2.7,1
+R2_Gladstone_to_Singapore_Paradip,Gladstone -> Paradip,1,32.2,33.4,PROCEED_WITH_BUFFER,32.6,0.8,1
+R3_Newcastle_to_Vizag,Newcastle -> Visakhapatnam,1,32.2,33.4,PROCEED_WITH_BUFFER,32.6,0.8,1
+R4_Samarinda_to_Haldia,Samarinda -> Haldia,1,32.2,33.4,PROCEED_WITH_BUFFER,32.6,0.8,1
+R5_Paradip_to_Vizag_Feeder,Paradip -> Visakhapatnam,2,32.2,32.3,NOMINAL_EXECUTION,32.2,0.1,1

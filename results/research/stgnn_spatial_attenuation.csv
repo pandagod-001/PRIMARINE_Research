@@ -1,0 +1,4 @@
+Graph_Distance,Mean_Risk_Increase,Behavior
+Hop 0 (Disrupted Origin - Hay Point),0.2204,Epicenter Peak Disruption
+Hop 1 (Direct Corridors - Singapore & Paradip),0.1545,Downstream Propagation Corridor
+"Hop 2 (Secondary Ports - Vizag, Haldia, Samarinda)",0.0325,Attenuated Secondary Exposure

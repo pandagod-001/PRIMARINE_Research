@@ -1,0 +1,4 @@
+Method,Nominal_Coverage_Pct,Empirical_Coverage_Pct,Mean_Interval_Width,Median_Interval_Width,Sharpness_Rank
+"Raw Quantile Regression (q=0.05, 0.95)",90.0,97.57,8.5398,8.3348,Highest Sharpness (Narrowest)
+Split-Conformalized Quantile Regression (CQR),90.0,88.19,7.6262,7.4212,Calibrated & Mathematically Bounded
+Volatility-Scaled Residual Heuristic (POC),95.0,98.26,3.9328,3.5816,Overly Conservative (Excessively Wide)

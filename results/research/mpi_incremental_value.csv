@@ -1,0 +1,5 @@
+Model,Features_Count,Validation_MAE,Validation_Dir_Acc_Pct,Test_MAE,Test_Dir_Acc_Pct
+Model_A_BDRY_History_Only,6,0.917,53.82,0.4969,53.47
+Model_B_BDRY_Plus_Technical,15,0.8138,55.21,0.4696,54.86
+Model_C_BDRY_Plus_External_Market,27,0.8557,57.64,0.5104,51.04
+Model_D_BDRY_Plus_External_Plus_MPI,29,0.8773,58.33,0.5134,50.69

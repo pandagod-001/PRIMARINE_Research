@@ -1,0 +1,4 @@
+Strategy,Decisions_Made,Abstention_Count,Abstention_Rate_Pct,Decision_Precision_Pct,Avg_Procurement_Advantage_Pct,Median_Advantage_Pct,Worst_Case_Disadvantage_Pct,Best_Case_Advantage_Pct
+Strategy A: Immediate Spot (Naive),288,0,0.0,,0.0,0.0,0.0,0.0
+Strategy B: Fixed ±2% PRIMARINE (No Uncertainty),212,0,0.0,53.3,1.04,1.18,-21.46,25.93
+Strategy C: Uncertainty-Aware (CQR + Abstention),212,0,0.0,53.3,1.04,1.18,-21.46,25.93

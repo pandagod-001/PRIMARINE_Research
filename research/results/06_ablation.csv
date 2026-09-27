@@ -1,0 +1,7 @@
+Configuration,Layers_Active,Mean_Landed_Cost_pmt,Infeasible_Recommendation_Rate_Pct,Decision_Stability_DFI,Constraint_Violation_Rate_Pct,Regret_vs_Optimal_pmt,Advantage_over_Baseline_Pct
+FULL_PRIMARINE_SYSTEM,Predict + Validate + Optimize + Adapt,17.8518,0.0,0.2104,0.0,0.0,1.22
+ABLATION_A_NO_UNCERTAINTY,Point Predict + Validate + Optimize,18.0358,0.0,0.442,0.0,0.184,0.2
+ABLATION_B_NO_FEASIBILITY,Predict + Optimize (Blind to Port/Draft Limits),20.7018,38.4,0.521,38.4,2.85,-14.55
+ABLATION_C_NO_OPTIMIZATION,Predict + Validate (Fixed Default Fleet Assignment),18.4718,0.0,0.18,0.0,0.62,-2.21
+ABLATION_D_NO_ADAPTIVE_LOOP,Predict + Validate + Optimize (Static Under Disruption),18.7468,14.3,0.0,14.3,0.895,-3.73
+ABLATION_E_PERSISTENCE_BASELINE,Naive Persistence (Zero Intelligence),18.0727,0.0,0.0,0.0,0.2209,0.0

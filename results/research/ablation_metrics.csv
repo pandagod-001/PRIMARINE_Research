@@ -1,0 +1,7 @@
+Configuration,Feature_Count,Validation_MAE,Validation_Directional_Acc_Pct
+A: Freight Lag History Only,6,0.917,53.82
+B: + Technical Trend & Volatility,15,0.8138,55.21
+C: + Bunker Fuel Proxy (Brent),18,0.8387,51.39
+D: + Mineral Export Drivers (BHP/Vale),22,0.8116,56.25
+E: + Macro FX (DXY & USD/INR),27,0.8557,57.64
+F: Full Multimodal + Seasonality + MPI + Regime,35,0.891,57.64

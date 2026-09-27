@@ -1,0 +1,9 @@
+Node_ID,Port_Name,Baseline_Risk_A,Disrupted_Risk_B,Delta_Risk_B,Severe_Risk_C,Delta_Risk_C,Role
+0,Hay Point (AU),0.3547,0.5751,0.2204,0.6799,0.3251,Origin Epicenter
+1,Gladstone (AU),0.3467,0.3707,0.0239,0.3829,0.0362,Adjacent Origin
+2,Newcastle (AU),0.3467,0.3707,0.0239,0.3829,0.0362,Adjacent Origin
+3,Samarinda (ID),0.3467,0.3707,0.0239,0.3829,0.0362,Adjacent Origin
+4,Singapore Strait,0.4284,0.5655,0.1371,0.6316,0.2032,Transit Chokepoint
+5,Paradip (IN),0.3806,0.5525,0.1719,0.6364,0.2558,Direct Destination
+6,Visakhapatnam (IN),0.3663,0.4118,0.0455,0.4351,0.0688,Direct Destination
+7,Haldia (IN),0.3663,0.4118,0.0455,0.4351,0.0688,Direct Destination

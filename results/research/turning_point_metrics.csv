@@ -1,0 +1,5 @@
+Model,Total_Actual_Events,Predicted_Events,Precision_Pct,Recall_Pct,F1_Score_Pct,Accuracy_Pct
+Naive Persistence Baseline,160,0,0.0,0.0,0.0,44.44
+5-Day Simple Moving Average,160,44,61.36,16.88,26.47,47.92
+AutoRegressive AR(5),160,46,60.87,17.5,27.18,47.92
+PRIMARINE LightGBM (Strict >=4% Trigger),160,166,58.43,60.62,59.51,54.17

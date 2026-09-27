@@ -1,0 +1,61 @@
+regime,scenario_idx,num_feasible,central_vessel,central_port,central_route,vessel_changed,port_changed,route_changed,physical_flip,timing_flip,central_cost
+Normal Constraints,0,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.2224
+Normal Constraints,1,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.2563
+Normal Constraints,2,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6202
+Normal Constraints,3,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6067
+Normal Constraints,4,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5823
+Normal Constraints,5,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6275
+Normal Constraints,6,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6106
+Normal Constraints,7,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.2055
+Normal Constraints,8,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.17
+Normal Constraints,9,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5339
+Normal Constraints,10,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.4796
+Normal Constraints,11,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.7053
+Normal Constraints,12,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.4093
+Normal Constraints,13,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.811
+Normal Constraints,14,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.7412
+Normal Constraints,15,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5825
+Normal Constraints,16,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5851
+Normal Constraints,17,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5581
+Normal Constraints,18,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5581
+Normal Constraints,19,9,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5359
+Moderately Tight Constraints,0,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.2224
+Moderately Tight Constraints,1,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.2563
+Moderately Tight Constraints,2,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6202
+Moderately Tight Constraints,3,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6067
+Moderately Tight Constraints,4,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5823
+Moderately Tight Constraints,5,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6275
+Moderately Tight Constraints,6,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6106
+Moderately Tight Constraints,7,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.2055
+Moderately Tight Constraints,8,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.17
+Moderately Tight Constraints,9,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5339
+Moderately Tight Constraints,10,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.4796
+Moderately Tight Constraints,11,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.7053
+Moderately Tight Constraints,12,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,15.4093
+Moderately Tight Constraints,13,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.811
+Moderately Tight Constraints,14,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.7412
+Moderately Tight Constraints,15,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5825
+Moderately Tight Constraints,16,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5851
+Moderately Tight Constraints,17,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5581
+Moderately Tight Constraints,18,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5581
+Moderately Tight Constraints,19,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.5359
+Highly Tight Constraints,0,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6794
+Highly Tight Constraints,1,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.7133
+Highly Tight Constraints,2,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.0772
+Highly Tight Constraints,3,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.0636
+Highly Tight Constraints,4,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.0392
+Highly Tight Constraints,5,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.0845
+Highly Tight Constraints,6,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.0676
+Highly Tight Constraints,7,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.6625
+Highly Tight Constraints,8,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.627
+Highly Tight Constraints,9,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,13.9909
+Highly Tight Constraints,10,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,13.9366
+Highly Tight Constraints,11,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.1622
+Highly Tight Constraints,12,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.8662
+Highly Tight Constraints,13,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.268
+Highly Tight Constraints,14,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.1982
+Highly Tight Constraints,15,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.0395
+Highly Tight Constraints,16,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.042
+Highly Tight Constraints,17,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.0151
+Highly Tight Constraints,18,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,14.0151
+Highly Tight Constraints,19,6,V2_Capesize_Standard,Paradip,Samarinda_to_ECI,0,0,0,0,1,13.9928

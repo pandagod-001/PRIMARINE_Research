@@ -1,0 +1,6 @@
+policy,coverage,abstention_rate,false_breakouts,non_abstained_errors,selective_risk,mean_landed_cost,cost_diff_vs_forced,mean_regret
+1. Forced Point Forecast,1.0,0.0,86,138,0.4792,7.3909,0.0521,0.1848
+2. Width-Only Abstention,0.6111,0.3889,41,92,0.5227,7.4243,0.0856,0.2183
+3. Boundary-Crossing Abstention,0.0035,0.9965,0,0,0.0,7.4071,0.0683,0.201
+4. Normalized-Margin Abstention,0.4028,0.5972,34,52,0.4483,7.3928,0.054,0.1867
+5. Combined Boundary + Margin,0.0035,0.9965,0,0,0.0,7.4071,0.0683,0.201

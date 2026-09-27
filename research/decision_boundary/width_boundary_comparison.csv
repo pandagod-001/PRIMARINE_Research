@@ -1,0 +1,9 @@
+Signal,N,False_Breakout_Count,False_Breakout_Rate,Error_Count,Error_Rate,Mean_Regret,Median_Regret
+Low Width (W <= tau),176,41.0,0.233,92.0,0.5227,0.2371,0.0335
+High Width (W > tau),112,45.0,0.4018,46.0,0.4107,0.1026,0.0
+Boundary Crossing (L <= B <= U),287,86.0,0.2997,138.0,0.4808,0.1855,0.0
+No Boundary Crossing (L > B or U < B),1,0.0,0.0,0.0,0.0,0.0,0.0
+State: Robust Enter (L > B),1,0.0,0.0,0.0,0.0,0.0,0.0
+State: Robust Defer (U < B),0,,0.0,,0.0,0.0,0.0
+Low Norm Margin (NM < tau_nm),172,52.0,0.3023,86.0,0.5,0.1793,0.0
+High Norm Margin (NM >= tau_nm),116,34.0,0.2931,52.0,0.4483,0.193,0.0

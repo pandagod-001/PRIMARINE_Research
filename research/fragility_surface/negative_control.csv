@@ -1,0 +1,41 @@
+case_name,scenario_idx,num_feasible_vessels,feasible_vessel_ids,selected_vessel,false_fragility_detected,physical_decision_stability
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),0,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),1,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),2,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),3,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),4,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),5,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),6,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),7,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),8,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),9,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),10,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),11,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),12,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),13,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),14,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),15,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),16,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),17,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),18,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 1: Heavy Bulk (170k MT -> Paradip),19,1,['V1_Capesize_Modern'],V1_Capesize_Modern,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),0,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),1,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),2,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),3,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),4,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),5,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),6,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),7,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),8,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),9,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),10,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),11,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),12,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),13,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),14,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),15,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),16,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),17,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),18,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0
+Negative Control 2: Draft-Restricted (50k MT -> Haldia),19,1,['V5_Supramax_Geared'],V5_Supramax_Geared,0,1.0

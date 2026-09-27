@@ -1,0 +1,6 @@
+Test_ID,Description,Condition,Observed,Status
+SANITY_01,"Graph Topology Integrity (8 Nodes, 11 Corridors)",N == 8 and E == 11,"N = 8, E = 11",PASS
+SANITY_02,Zero Disruption Invariance (Baseline Shock = 0),max|Risk(Shock=0) - Baseline| == 0.0,Max Delta = 0.000000,PASS
+SANITY_03,Disruption Localization (Max delta at injection node),argmax(Delta) == 0 and Delta[0] > 0.20,Epicenter Delta = 0.2204 (Rank 1 of 8),PASS
+SANITY_04,Spatial Distance Attenuation (Hop 0 > Hop 1 > Hop 2),Hop 0 > Hop 1 > Hop 2 > 0,Hop0: 0.2204 > Hop1: 0.1545 > Hop2: 0.0325,PASS
+SANITY_05,Disconnected Node Isolation (Zero shock on unconnected hubs),Delta(Rotterdam) == 0.0 and Delta(Santos) == 0.0,"Rotterdam = 0.0, Santos = 0.0",PASS
